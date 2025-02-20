@@ -19,11 +19,11 @@ This repository contains the official implementation of our paper "Time-Varying 
   <img src="assets/video3.gif" width="600" alt="The complete deformation validation process can be visualized as shown in the animation">
 </p>
 
-Skeleton-based real-time deformation
-Animation sequence playback for vessel deformation
-Interactive skeletal control
-Visualization debugging tools
-Export capabilities for deformed meshes and pose data
+- Skeleton-based real-time deformation
+- Animation sequence playback for vessel deformation
+- Interactive skeletal control
+- Visualization debugging tools
+- Export capabilities for deformed meshes and pose data
 
 ## Requirements
 	System Requirements

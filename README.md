@@ -1,3 +1,4 @@
+**Status:** <font color="red">The complete code will be released upon paper acceptance.</font>
  # Time-Varying Coronary Artery Deformation: A Dynamic Skinning Framework for Surgical Training 
 
 [Shuo Wang](https://orcid.org/0009-0008-6187-0401)<sup>1</sup>,
@@ -110,4 +111,4 @@ If you find our work useful in your research, please consider to cite our paper:
 
 ## Acknowledgement
 
-**Status:** <span style="color: red">The complete code will be released upon paper acceptance.</span>
+

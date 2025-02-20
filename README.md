@@ -50,67 +50,78 @@ cd build
 cmake ..
 make
  
- Usage 
- Mouse Controls 
- 
- Left Click + Drag: Select and control bones 
- Alt + Left Drag: Rotate scene 
- Mouse Wheel: Zoom in/out 
- 
- Keyboard Shortcuts 
- 
- A/a: Toggle animation play/pause 
- D/d: Deselect all 
- e: Set rotation control mode 
- w: Set translation control mode 
- R: Reset selected bone rotation 
- r: Reset all bone rotations 
- F/f: Toggle floor display 
- S: Save current posed mesh 
- s: Save current skeleton pose 
- W: Save current weights 
- Z/z: Snap to canonical view 
- Ctrl+Z: Undo 
- Ctrl+Shift+Z: Redo 
- ESC/Ctrl+C: Exit program 
- 
- File Formats 
- 
- Supported Mesh Formats: .obj, .off 
- Skeleton File Format: .tgf 
- Weight File Format: .dmat 
- Output Formats:
- 
- Mesh: .obj 
- Pose: .dmat 
- Weights: .dmat 
- 
- 
- 
- Command Line Arguments 
- ./program <model.obj> <skeleton.tgf> [weights.dmat] [pose-prefix]
- 
- Parameters: 
- 
- model.obj: Input mesh model file 
- skeleton.tgf: Skeleton file 
- weights.dmat: (optional) Weight file 
- pose-prefix: (optional) Prefix for output pose files 
- 
- Important Notes 
- 
- Ensure correct format for input models and skeleton files 
- Large models may require longer initialization time 
- Recommended to save weight files to avoid recalculation 
- Adjust model resolution if performance issues occur 
- 
- Citation 
- If you find our work useful in your research, please consider citing our paper: 
- # Citation will be available after paper acceptance
- 
- Relevant Works 
- Acknowledgement 
- Status:  This is a preliminary release. More features and documentation will be added soon. 
+你说得对，让我修正Usage及之后部分的格式：
 
- 
- 你可以根据个人喜好选择使用哪种突出显示方式。
+```markdown
+[前面部分保持不变，直到Installation]
+
+## Usage
+
+### Mouse Controls
+```
+Left Click + Drag: Select and control bones
+Alt + Left Drag: Rotate scene
+Mouse Wheel: Zoom in/out
+```
+
+### Keyboard Shortcuts
+```
+A/a: Toggle animation play/pause
+D/d: Deselect all
+e: Set rotation control mode
+w: Set translation control mode
+R: Reset selected bone rotation
+r: Reset all bone rotations
+F/f: Toggle floor display
+S: Save current posed mesh
+s: Save current skeleton pose
+W: Save current weights
+Z/z: Snap to canonical view
+Ctrl+Z: Undo
+Ctrl+Shift+Z: Redo
+ESC/Ctrl+C: Exit program
+```
+
+### File Formats
+```
+Supported Mesh Formats: .obj, .off
+Skeleton File Format: .tgf
+Weight File Format: .dmat
+Output Formats:
+    Mesh: .obj
+    Pose: .dmat
+    Weights: .dmat
+```
+            
+### Command Line Arguments
+```
+./program <model.obj> <skeleton.tgf> [weights.dmat] [pose-prefix]
+Parameters:
+    -model.obj: Input mesh model file
+    -skeleton.tgf: Skeleton file
+    -weights.dmat: (optional) Weight file
+    -pose-prefix: (optional) Prefix for output pose files
+```
+
+## Important Notes
+```
+- Ensure correct format for input models and skeleton files
+- Large models may require longer initialization time
+- Recommended to save weight files to avoid recalculation
+- Adjust model resolution if performance issues occur
+```
+
+## Citation
+If you find our work useful in your research, please consider citing our paper:
+```
+[Citation will be available after paper acceptance]
+```
+
+## Relevant Works
+
+## Acknowledgement
+
+**Status:** <span style="color: red">The complete code will be released upon paper acceptance.</span>
+```
+
+

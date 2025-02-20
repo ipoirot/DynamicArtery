@@ -49,11 +49,6 @@ mkdir build
 cd build
 cmake ..
 make
- 
-你说得对，让我修正Usage及之后部分的格式：
-
-```markdown
-[前面部分保持不变，直到Installation]
 
 ## Usage
 

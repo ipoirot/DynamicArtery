@@ -12,8 +12,12 @@
 This repository contains the official implementation of our paper "Time-Varying Coronary Artery Deformation: A Dynamic Skinning Framework for Surgical Training", submitted to International Journal of Computer Assisted Radiology and Surgery.
 
 ## Features
-<img src="assets/SkinningWeight.png" alt="Coronary artery deformation using skinning weight calculation">
-<img src="assets/video3.gif" alt="The complete deformation validation process can be visualized as shown in the animation">
+<p align="center">
+  <img src="assets/SkinningWeight.png" alt="Coronary artery deformation using skinning weight calculation">
+</p>
+<p align="center">
+  <img src="assets/video3.gif" width="600" alt="The complete deformation validation process can be visualized as shown in the animation">
+</p>
 
 Skeleton-based real-time deformation
 Animation sequence playback for vessel deformation

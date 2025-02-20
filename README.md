@@ -44,42 +44,70 @@ This repository contains the official implementation of our paper "Time-Varying 
 - TetGen (optional, for tetrahedral meshing)
 
 ## Installation
-```bash
+```
 mkdir build
 cd build
 cmake ..
 make
+```
 
 ## Usage
+	-Mouse Controls:
 
-[Mouse]
-Left Click + Drag    : Select and control bones
-Alt + Left Drag     : Rotate scene
-Mouse Wheel         : Zoom in/out
+		Left Click + Drag: Select and control bones
+		Alt + Left Drag: Rotate scene
+		Mouse Wheel: Zoom in/out
 
-[Keyboard]
-Animation:
-A/a             : Toggle animation play/pause
+	-Keyboard Shortcuts:
 
-Navigation:
-D/d             : Deselect all
-Z/z             : Snap to canonical view
-F/f             : Toggle floor display
+		A/a: Toggle animation play/pause
+		D/d: Deselect all
+		e: Set rotation control mode
+		w: Set translation control mode
+		R: Reset selected bone rotation
+		r: Reset all bone rotations
+		F/f: Toggle floor display
+		S: Save current posed mesh
+		s: Save current skeleton pose
+		W: Save current weights
+		Z/z: Snap to canonical view
+		Ctrl+Z: Undo
+		Ctrl+Shift+Z: Redo
+		ESC/Ctrl+C: Exit program
 
-Control Modes:
-e               : Set rotation control mode
-w               : Set translation control mode
+	-File Formats
 
-Reset Operations:
-R               : Reset selected bone rotation
-r               : Reset all bone rotations
+		Supported Mesh Formats: .obj, .off
+		Skeleton File Format: .tgf
+		Weight File Format: .dmat
+		Output Formats:
+			-Mesh: .obj
+			-Pose: .dmat
+			-Weights: .dmat
+			
+	-Command Line Arguments
 
-Save Operations:
-S               : Save current posed mesh
-s               : Save current skeleton pose
-W               : Save current weights
+		./program <model.obj> <skeleton.tgf> [weights.dmat] [pose-prefix]
+		Parameters:
+			-model.obj: Input mesh model file
+			-skeleton.tgf: Skeleton file
+			-weights.dmat: (optional) Weight file
+			-pose-prefix: (optional) Prefix for output pose files
+## Important Notes
+- Ensure correct format for input models and skeleton files
+- Large models may require longer initialization time
+- Recommended to save weight files to avoid recalculation
+- Adjust model resolution if performance issues occur
 
-Edit Operations:
-Ctrl+Z          : Undo
-Ctrl+Shift+Z    : Redo
-ESC/Ctrl+C      : Exit program
+## Citation
+If you find our work useful in your research, please consider to cite our paper:
+```
+
+```
+
+
+## Relevant Works
+
+## Acknowledgement
+
+**Status:** <span style="color: red">The complete code will be released upon paper acceptance.</span>

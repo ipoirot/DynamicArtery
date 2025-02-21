@@ -11,7 +11,7 @@
 
 <sup>1</sup>Tsinghua University, <sup>2</sup>The Six medical center of PLA General Hospital
 
-[[Project](#)] [[Paper](#)] [[arXiv](#)] [[Video](#)] [[Supp](#)]
+[[Project](#)] [[Paper](#)] [[arXiv](#)] [[Video](https://www.youtube.com/playlist?list=PL6KpB8HbHVTTqnfAiExECcJxQTmd1E16l)] [[Supp](#)]
 
 This repository contains the official implementation of our paper "Time-Varying Coronary Artery Deformation: A Dynamic Skinning Framework for Surgical Training", submitted to International Journal of Computer Assisted Radiology and Surgery.
 

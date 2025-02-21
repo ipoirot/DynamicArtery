@@ -15,7 +15,9 @@
 
 This repository contains the official implementation of our paper "Time-Varying Coronary Artery Deformation: A Dynamic Skinning Framework for Surgical Training", submitted to International Journal of Computer Assisted Radiology and Surgery.
 
-**Note:** <span style="color: red">The complete code will be released upon paper acceptance.</span>
+**Note:** 
+- <span style="color: red">The complete code will be released upon paper acceptance.</span>
+- If you are interested, you can check out our [YouTube channel](https://www.youtube.com/playlist?list=PL6KpB8HbHVTTqnfAiExECcJxQTmd1E16l) for a more detailed introduction to the PCI simulator system.
 
 ## Features
 <p align="center">

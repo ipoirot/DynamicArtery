@@ -18,7 +18,7 @@ This repository contains the official implementation of our paper "Time-Varying 
 **Note:** 
 - <span style="color: red">The complete code will be released upon paper acceptance.</span>
 - If you are interested, you can check out our [YouTube channel](https://www.youtube.com/playlist?list=PL6KpB8HbHVTTqnfAiExECcJxQTmd1E16l) for a more detailed introduction to the PCI simulator system.
-
+![Preview of PCI Simulator System](assets/preview_PCI.png)
 ## Features
 <p align="center">
   <img src="assets/SkinningWeight.png" alt="Coronary artery deformation using skinning weight calculation">

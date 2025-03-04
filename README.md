@@ -13,7 +13,7 @@
 
 [[Project](#)] [[Paper](#)] [[arXiv](#)] [[Video](https://www.youtube.com/playlist?list=PL6KpB8HbHVTTqnfAiExECcJxQTmd1E16l)] [[Supp](#)]
 
-This repository contains the official implementation of our paper "Time-Varying Coronary Artery Deformation: A Dynamic Skinning Framework for Surgical Training", submitted to International Journal of Computer Assisted Radiology and Surgery.
+This repository contains the official implementation of our paper "Time-Varying Coronary Artery Deformation: A Dynamic Skinning Framework for Surgical Training", submitted to .
 
 **Note:** 
 - <span style="color: red">The complete code will be released upon paper acceptance.</span>
